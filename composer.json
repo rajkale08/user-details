@@ -1,0 +1,19 @@
+{
+    "name": "raj/user",
+    "description": "This package is used to create basic user crud",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rajkale",
+            "email": "raj.kale@neosofttech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Raj\\User\\": "src/"
+        }
+    }
+}
