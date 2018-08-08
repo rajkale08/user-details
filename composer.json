@@ -15,12 +15,5 @@
         "psr-4": {
             "Raj\\User\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Raj\\User\\UserServiceProvider"
-            ]
-        }
     }
 }
