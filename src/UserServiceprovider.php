@@ -12,11 +12,11 @@ class UserServiceprovider extends ServiceProvider{
         $this->loadViewsFrom(__DIR__.'/views', 'user');
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->publishes([
-            __DIR__.'/database/migrations/' => database_path('migrations')
+            __DIR__.'/database/migrations/' => database_path('migrations/')
         ], 'migrations');
 
         $this->publishes([
-            __DIR__.'/views' => resource_path('views'),
+            __DIR__.'/views/' => resource_path('views/'),
         ]);
     }
 
